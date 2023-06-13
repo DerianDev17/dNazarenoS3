@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dNazarenoS3.Page1">
+    <ContentPage.Content>
+        <StackLayout Style="{StaticResource stackLayoutStyle}">
+            <Label Text="Semana 3: Estilo 1" FontSize="18" HorizontalTextAlignment="Center" />
+                <Entry x:Name="txtDatoUno" Placeholder="Inserte una cadena"/>
+                <Entry x:Name="txtDatoDos" Placeholder="Inserte un numero" Keyboard="Numeric"/>
+            <Button x:Name="btnAbrir" Text="Abrir" Clicked="btnAbrir_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
