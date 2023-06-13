@@ -9,7 +9,7 @@ namespace dNazarenoS3
         public App()
         {
             InitializeComponent();
-
+            // Navegacon
             MainPage = new NavigationPage(new Page1());
         }
 
